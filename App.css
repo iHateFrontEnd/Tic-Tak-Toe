@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 80px;
+    color: orange;
+    background-color: black;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.startup{
+    opacity: 0;
+}
+
+.start{
+    height: 80px;
+    width: 400px;
+    background-color: black;
+    color: orange;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    border-style: none;
+}
+
+.game{
+    background-color: orange;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    border-style: none;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.gameTable{
+    margin: 0 auto;
+}
+
+.gameCells{
+    height: 80px;
+    font-family: 'Bebas Neue', cursive;
+    width: 80px;
+    background-color: black;
+    font-size: 30px;
+    color: orange;
+    border-radius: 12px;
+    border-style: none;
+    text-align: center;
+}
+
+.clearBoardButton{
+    height: 80px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    border-style: none;
+}
+
+.playerNameDiv{
+    background-color: orange;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
+    border-style: none;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.enterPlayerNames{
+    height: 80px;
+    width: 450px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    border-style: none;
+}
+
+.skipBtn{
+    height: 60px;
+    width: 350px;
+    background-color: white;
+    color: orange;
+    border-radius: 12px;
+    border-style: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
