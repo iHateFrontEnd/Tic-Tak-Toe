@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
@@ -182,58 +182,58 @@ function checkWhoWon(){
     var row3Col2 = document.getElementById('row3Col2').value;
     var row3Col3 = document.getElementById('row3Col3').value;
 
-    //checking for o or player 1 
+    //checking for o or player 2
     if(row1Col1 === 'o' && row1Col2 === 'o' && row1Col3 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row2Col1 === 'o' && row2Col2 === 'o' && row2Col3 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row3Col1 === 'o' && row3Col1 === 'o' && row3Col3 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row1Col1 === 'o' && row2Col1 === 'o' && row3Col1 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row1Col2 === 'o' && row2Col2 === 'o' && row3Col2 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row1Col3 === 'o' && row2Col3 === 'o' && row3Col3 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row1Col1 === 'o' && row2Col2 === 'o' && row3Col3 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     } else if(row1Col3 === 'o' && row2Col2 === 'o' && row3Col1 === 'o'){
         clearBoard();
-        alert('Player 1 one!');     
+        alert('Player 2 won!');     
     }
 
-    //write code for x or player 2
+    //write code for x or player 1
     if(row1Col1 === 'x' && row1Col2 === 'x' && row1Col3 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row2Col1 === 'x' && row2Col2 === 'x' && row2Col3 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row3Col1 === 'x' && row3Col1 === 'x' && row3Col3 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row1Col1 === 'x' && row2Col1 === 'x' && row3Col1 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row1Col2 === 'x' && row2Col2 === 'x' && row3Col2 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row1Col3 === 'x' && row2Col3 === 'x' && row3Col3 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row1Col1 === 'x' && row2Col2 === 'x' && row3Col3 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     } else if(row1Col3 === 'x' && row2Col2 === 'x' && row3Col1 === 'x'){
         clearBoard();
-        alert('Player 2 one!');     
+        alert('Player 1 won!');     
     }
 }
 
