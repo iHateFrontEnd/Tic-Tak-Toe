@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-size: 10vh;
+}
+
+h2{
+    font-size: 6vh;
+}
+
+.playerNames{
+    height: 10vh;
+    width: 50vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 2vh;
+    border-style: none;
+}
+
+.startup{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    margin-right: 30vh;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    border-radius: 5vh;
+    border-style: none;
+    background-color: orange;
+    text-align: center;
+}
+
+.start{
+    height: 15vh;
+    width: 60vh;
+    background-color: black;
+    color: orange;
+    border-radius: 2vh;
+    border-style: none;
+}
+
+.playerNamesDiv{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+    text-align: center;
+    background-color: orange;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    border-radius: 5vh;
+    border-style: none;
+}
+
+.savePlyNames{
+    height: 10vh;
+    width: 60vh;
+    border-radius: 2vh;
+    border-style: none;
+    background-color: black;
+    color: orange;
+}
+
+.gameDiv{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-top: 5vh;
+    margin-right: 30vh;
+    margin-left: 30vh;
+    background-color: orange;
+    border-radius: 10vh;
+    border-style: none;
+    text-align: center;
+}
+
+.gameTable{
+    margin: 0 auto;
+}
